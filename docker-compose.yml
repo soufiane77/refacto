@@ -1,0 +1,13 @@
+version: '3'
+services:
+  php7-apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+      - "8080:8080"
+
+    volumes:
+      - ./:/var/www/html
+

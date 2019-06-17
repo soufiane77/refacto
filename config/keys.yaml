@@ -1,0 +1,12 @@
+summary_html:
+  value: false
+summary:
+  value: false
+first_name:
+  value: true
+destination_link:
+  value: countryName
+  className: destination
+destination_name:
+  value: countryName
+  className: destination
